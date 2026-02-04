@@ -22,6 +22,10 @@ Para executar este projeto, é necessário ter instalado na máquina:
 
 Todas as dependências do projeto já estão configuradas no arquivo `pom.xml`.
 
+Para conseguir rodar o código também precisamos instalar uma lib do Google:  [Clique aqui](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.13.2)
+
+Depois de instalar, vá em sua IDE com o projeto aberto e clique em "Project Structure" e depois em lib e adicione ela lá. 
+
 Após clonar o repositório, o Maven irá baixar automaticamente tudo o que for necessário.
 
 
