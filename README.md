@@ -1,86 +1,45 @@
-springboot-test
+# springboot-test
 
-Projeto de exemplo para criação e execução de testes automatizados utilizando Spring Boot e JUnit.
+Projeto de exemplo para criação e execução de testes automatizados utilizando **Spring Boot** e **JUnit**.
 
-Sumário
+## Sumário
+- Pré-requisitos
+- Instalação das dependências
+- Estrutura do Projeto
+- Executando a Aplicação
+- Executando os Testes
 
-Pré-requisitos
-
-Instalação das dependências
-
-Estrutura do Projeto
-
-Executando a Aplicação
-
-Executando os Testes
-
-Pré-requisitos
+## Pré-requisitos
 
 Para executar este projeto, é necessário ter instalado na máquina:
 
-Git
+- Git
+- Java (JDK 17 ou compatível)
+- Maven (ou utilizar o Maven Wrapper que já vem no projeto)
+- IDE de sua preferência (no meu caso é o Intellij Ultimate)
 
-Java (JDK 17 ou compatível)
+## Instalação das dependências
 
-Maven (ou utilizar o Maven Wrapper que já vem no projeto)
-
-Instalação das dependências
-
-Todas as dependências do projeto já estão configuradas no arquivo pom.xml.
+Todas as dependências do projeto já estão configuradas no arquivo `pom.xml`.
 
 Após clonar o repositório, o Maven irá baixar automaticamente tudo o que for necessário.
 
-git clone https://github.com/HenriqueSales2/springboot-test.git
-cd springboot-test
 
-Estrutura do Projeto
-
+```plaintext
 A estrutura do projeto segue o padrão do Spring Boot:
 
 springboot-test/
 ├── src/
 │   ├── main/
-│   │   └── java/
-│   │       └── ...            # Código principal da aplicação
+│   │   └── java/        # Código principal da aplicação
 │   └── test/
-│       └── java/
-│           └── ...            # Testes automatizados
-├── .mvn/                      # Configurações do Maven Wrapper
+│       └── java/        # Testes automatizados
+├── .mvn/                # Configurações do Maven Wrapper
 ├── mvnw
 ├── mvnw.cmd
-├── pom.xml                    # Dependências e configurações do projeto
+├── pom.xml              # Dependências e configurações do projeto
 ├── README.md
 └── HELP.md
+```
 
-
-src/main/java: contém o código principal da aplicação.
-
-src/test/java: contém os testes automatizados feitos com JUnit e Spring Boot Test.
-
-pom.xml: arquivo responsável pelas dependências, versões e plugins do projeto.
-
-Executando a Aplicação
-
-Para subir a aplicação Spring Boot, execute o comando abaixo na raiz do projeto:
-
-./mvnw spring-boot:run
-
-
-No Windows, use:
-
-mvnw.cmd spring-boot:run
-
-Executando os Testes
-
-Para executar os testes automatizados, utilize:
-
-./mvnw test
-
-
-Esse comando irá:
-
-Compilar o projeto
-
-Executar todos os testes presentes em src/test/java
-
-Exibir no terminal se os testes passaram ou falharam
+Depois de clonar o repositório é só executar na sua IDE que verá o código rodando, eu deixei algumas anotações para quem não souber JAVA, entender melhor o código e como cada parte dele funciona. ;)
