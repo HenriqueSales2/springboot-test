@@ -1,4 +1,4 @@
-package br.com.henrique.springboot_test2.app;
+package br.com.henrique.springboot_test2.BeansAndComponents;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package br.com.henrique.springboot_test2.app;
+package br.com.henrique.springboot_test2.BeansAndComponents;
 
 import com.google.gson.Gson;
 import org.springframework.context.annotation.Bean;
