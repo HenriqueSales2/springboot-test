@@ -31,6 +31,11 @@ public class SpringbootTest2Application {
 			mensagem.enviarMensagemBoasVindas();
 			mensagem.enviarConfirmacaoCadastro();
 		};
+
+		// caso queira ver qualquer um dos exemplos é só descomentar
 	}*/
+
+
+
 
 }
